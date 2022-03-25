@@ -1,12 +1,3 @@
----
-layout: post
-title: "HTML Text Formatting"
-tags: [개발, HTML]
-date: 2022-03-22 22:54:00 +0900
-categories: [개발, HTML/CSS]
-comments: true
----
-
 # HTML Text Formatting
 
 ## Text Formatting
