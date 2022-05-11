@@ -26,5 +26,7 @@
 1. [화살표 함수](./posts/javascript/javascript-011-화살표함수.md)
 1. [객체](./posts/javascript/javascript-012-객체.md)
 1. [메소드와 this](./posts/javascript/javascript-013-메소드와this.md)
+1. [생성자 함수](./posts/javascript/javascript-014-생성자함수.md)
+1. [OptionalChaining](./posts/javascript/javascript-015-OptionalChaining.md)
 
 https://velog.io/@2weeks0
