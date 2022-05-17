@@ -1,4 +1,4 @@
-# blog
+`# blog
 
 공부한 거 정리해놓자!
 
@@ -28,5 +28,11 @@
 1. [메소드와 this](./posts/javascript/javascript-013-메소드와this.md)
 1. [생성자 함수](./posts/javascript/javascript-014-생성자함수.md)
 1. [OptionalChaining](./posts/javascript/javascript-015-OptionalChaining.md)
+1. [자료구조-숫자형](./posts/javascript/javascript-016-자료구조-숫자형.md)
+1. [자료구조-문자열](./posts/javascript/javascript-017-자료구조-문자열.md)
+1. [자료구조-배열](./posts/javascript/javascript-018-자료구조-배열.md)
+1. [자료구조-배열2](./posts/javascript/javascript-019-자료구조-배열2.md)
+1. [자료구조-Map](./posts/javascript/javascript-020-Map.md)
+1. [자료구조-Set](./posts/javascript/javascript-021-Set.md)
 
-https://velog.io/@2weeks0
+https://velog.io/@2weeks0`
