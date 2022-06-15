@@ -42,6 +42,7 @@
 ---
 ### Web
 1. [mpa_spa](./posts/web/etc/mpa_spa.md)
+2. [JavaScript-비동기함수-병렬처리](./posts/web/etc/JavaScript-비동기함수-병렬처리.md)
 
 ---
 ### 컴퓨터구조
