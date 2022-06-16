@@ -38,11 +38,14 @@
 23. [Object_keys_values_entries](./posts/javascript/javascript-023-Object_keys_values_entries.md)
 24. [구조분해할당](./posts/javascript/javascript-024-구조분해할당.md)
 25. [나머지 매개변수 스프레드](./posts/javascript/javascript-025-나머지-매개변수-스프레드-문법.md)
+26. [var에 대해서](./posts/javascript/javascript-026-var.md)
 
 ---
 ### Web
 1. [mpa_spa](./posts/web/etc/mpa_spa.md)
-2. [JavaScript-비동기함수-병렬처리](./posts/web/etc/JavaScript-비동기함수-병렬처리.md)
+1. [JavaScript-비동기함수-병렬처리](./posts/web/etc/JavaScript-비동기함수-병렬처리.md)
+1. [Virtual DOM이란?](./posts/web/etc/virtual-dom.md)
+1. [node.js란?](./posts/web/etc/nodejs.md)
 
 ### 프로그래밍
 1. [Collection-분기](./posts/프로그래밍/Collection-분기.md)
