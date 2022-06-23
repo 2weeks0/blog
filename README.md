@@ -54,6 +54,7 @@
 1. [state와 LifeCycle](./posts/web/reactjs/reactjs-04-state-lifecycle.md)
 1. [Event](./posts/web/reactjs/reactjs-05-event.md)
 1. [Conditional Rendering](./posts/web/reactjs/reactjs-06-conditional-rendering.md)
+1. [Flux와 Redux](./posts/web/reactjs/reactjs-07-redux.md)
 
 ### 프로그래밍
 1. [Collection-분기](./posts/프로그래밍/Collection-분기.md)
