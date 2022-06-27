@@ -55,6 +55,8 @@
 1. [Event](./posts/web/reactjs/reactjs-05-event.md)
 1. [Conditional Rendering](./posts/web/reactjs/reactjs-06-conditional-rendering.md)
 1. [Flux와 Redux](./posts/web/reactjs/reactjs-07-redux.md)
+1. [Container와 Presenter 디자인 패턴](./posts/web/reactjs/reactjs-08-container-presenter.md)
+1. [Hooks - useState](./posts/web/reactjs/reactjs-09-usestate.md)
 
 ### 프로그래밍
 1. [Collection-분기](./posts/프로그래밍/Collection-분기.md)
