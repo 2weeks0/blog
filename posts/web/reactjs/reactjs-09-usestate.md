@@ -10,12 +10,12 @@
 import { useState } from 'react';
 
 function Counter() {
-    const [count, setScount] = useState(0);
+    const [count, setCount] = useState(0);
 
     return (
         <div>
             <p>count: {count}</p>
-            <buttton onClick={() => setCount(count + 1)}>+1</button>
+            <button onClick={() => setCount(count + 1)}>+1</button>
         </div>
     );
 }
@@ -47,5 +47,5 @@ const [count, setScount] = useState(0);
 `useState`로 받아온 두번째 인자값의 변수로 사용할 수 있다.
 
 ```javascript
-<buttton onClick={() => setCount(count + 1)}>+1</button>
+<button onClick={() => setCount(count + 1)}>+1</button>
 ```
