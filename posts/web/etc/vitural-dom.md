@@ -10,7 +10,7 @@ DOM은 Document Object Model의 약어로, HTML, XML 문서를 위한 API이다.
 각 요소는 하나의 Node로 트리 형태로 저장되고, 이를 DOM 트리라고 한다.
 예를 들어 div 태그 아래 span 태그가 있다면 div 노드라는 부모 아래 span 노드의 자식이 위치하는 것이다.
 
-[DOM](./../../../assets/img/posts/web/dom-03.png)
+![DOM](./../../../assets/img/posts/web/dom-03.png)
 
 [출처: https://en.wikipedia.org/wiki/Document_Object_Model]
 
@@ -23,7 +23,7 @@ HTML 문서는 요구사항 문서, DOM 트리는 거푸집? 정도로 생각하
 
 브라우저의 주요 구성 요소는 아래와 같다.
 
-[브라우저 구성](./../../../assets/img/posts/web/dom-01.png)
+![브라우저 구성](./../../../assets/img/posts/web/dom-01.png)
 
 >1. 사용자 인터페이스  
 >주소 표시줄, 뒤로/앞으로 가기 버튼, 즐겨찾기 버튼 등. 웹 페이지 화면을 제외한 모든 부분
@@ -50,7 +50,7 @@ HTML 문서는 요구사항 문서, DOM 트리는 거푸집? 정도로 생각하
 
 ## 동작 과정
 
-[브라우저 렌더링 과정](./../../../assets/img/posts/web/dom-02.png)
+![브라우저 렌더링 과정](./../../../assets/img/posts/web/dom-02.png)
 
 [출처: https://web.dev/howbrowserswork/]
 
@@ -74,7 +74,7 @@ DOM 트리에 변화가 생길 때마다 위 렌더링 과정이 실행된다.
 
 이러한 성능 저하를 피하기 위해 고안된 개념이 가상 돔(Virtual DOM)이다.
 
-[Virtual DOM](./../../../assets/img/posts/web/dom-04.png)
+![Virtual DOM](./../../../assets/img/posts/web/dom-04.png)
 
 [출처: https://coding-medic.com/2020/11/10/the-virtual-dom/]
 

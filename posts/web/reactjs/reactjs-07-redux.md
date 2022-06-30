@@ -6,13 +6,13 @@ Flux는 Facebook에서 사용하는 어플리케이션 아키텍쳐다. Flux를 
 
 Facebook에선 다음과 같은 문제를 해결하기 위해 Flux를 도입했다. 
 
-[페메](../../../assets/img/posts/web/reactjs/facebook-msg.png)
+![페메](../../../assets/img/posts/web/reactjs/facebook-msg.png)
 
 (출처: https://bestalign.github.io/translation/cartoon-guide-to-flux)
 
 Facebook엔 메시지 기능이 있고, 읽지 않은 메시지의 개수를 표시하는 기능이 있다. 각각의 대화방에선 각 대화방에 해당하는 개수를 표시해야하고, 메인 화면엔 읽지 않은 모든 메시지들의 개수를 보여줘야 한다. 각 컴포넌트들의 데이터가 합쳐져서 상위 컴포넌트의 데이터가 되는 형태를 띄고 있다.
 
-[데이터 흐름](../../../assets/img/posts/web/reactjs/redux-data-flow.png)
+![데이터 흐름](../../../assets/img/posts/web/reactjs/redux-data-flow.png)
 
 (출처: https://c17an.netlify.app/blog/React/redux-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/article/)
 
@@ -23,7 +23,7 @@ Facebook엔 메시지 기능이 있고, 읽지 않은 메시지의 개수를 표
 
 Redux란 Flux 아키텍쳐의 개념을 살짝 변형시켜 JavaScript로 구현한 라이브러리다. Redux엔 다음과 같은 개념이 있다.
 
-[Redux 흐름](../../../assets/img/posts/web/reactjs/redux-flow.png)
+![Redux 흐름](../../../assets/img/posts/web/reactjs/redux-flow.png)
 
 (출처: https://c17an.netlify.app/blog/React/redux-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/article/)
 

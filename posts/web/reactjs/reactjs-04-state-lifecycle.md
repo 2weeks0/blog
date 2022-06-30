@@ -43,7 +43,7 @@ class Clock extends React.Component {
 
 ## 생명주기
 
-[생명주기](./../../../assets/img/posts/web/reactjs/react-life-cycle.png)
+![생명주기](./../../../assets/img/posts/web/reactjs/react-life-cycle.png)
 
 (출처: https://saikat-hossain.medium.com/react-lifecycle-bf83b9832be8)
 
