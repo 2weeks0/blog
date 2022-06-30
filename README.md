@@ -57,6 +57,8 @@
 1. [Flux와 Redux](./posts/web/reactjs/reactjs-07-redux.md)
 1. [Container와 Presenter 디자인 패턴](./posts/web/reactjs/reactjs-08-container-presenter.md)
 1. [Hooks - useState](./posts/web/reactjs/reactjs-09-usestate.md)
+1. [Hooks - useEffect](./posts/web/reactjs/reactjs-10-useeffect.md)
+1. [Hooks - useMemo](./posts/web/reactjs/reactjs-11-usememo.md)
 
 ### 프로그래밍
 1. [Collection-분기](./posts/프로그래밍/Collection-분기.md)
