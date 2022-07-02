@@ -59,6 +59,7 @@
 1. [Hooks - useState](./posts/web/reactjs/reactjs-09-usestate.md)
 1. [Hooks - useEffect](./posts/web/reactjs/reactjs-10-useeffect.md)
 1. [Hooks - useMemo](./posts/web/reactjs/reactjs-11-usememo.md)
+1. [Hooks - useReducer](./posts/web/reactjs/reactjs-12-usereducer.md)
 
 ### 프로그래밍
 1. [Collection-분기](./posts/프로그래밍/Collection-분기.md)
