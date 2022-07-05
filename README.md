@@ -43,6 +43,7 @@
 ---
 ### TypeScript
 1. [Type](./posts/typescript/typescript-001-type.md)
+1. [Interface](./posts/typescript/typescript-002-interface.md)
 
 ---
 ### Web
