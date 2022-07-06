@@ -44,6 +44,7 @@
 ### TypeScript
 1. [Type](./posts/typescript/typescript-001-type.md)
 1. [Interface](./posts/typescript/typescript-002-interface.md)
+1. [함수](./posts/typescript/typescript-003-function.md)
 
 ---
 ### Web
