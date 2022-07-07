@@ -45,6 +45,7 @@
 1. [Type](./posts/typescript/typescript-001-type.md)
 1. [Interface](./posts/typescript/typescript-002-interface.md)
 1. [함수](./posts/typescript/typescript-003-function.md)
+1. [리터럴 타입](./posts/typescript/typescript-004-literal.md)
 
 ---
 ### Web
