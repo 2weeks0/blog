@@ -40,6 +40,7 @@
 25. [나머지 매개변수 스프레드](./posts/javascript/javascript-025-나머지-매개변수-스프레드-문법.md)
 26. [var에 대해서](./posts/javascript/javascript-026-var.md)
 27. [프로토타입](./posts/javascript/javascript-027-prototype.md)
+28. [내장 객체의 프로토타입](./posts/javascript/javascript-028-내장객체의-프로토타입.md)
 
 ---
 ### TypeScript
