@@ -41,6 +41,7 @@
 26. [var에 대해서](./posts/javascript/javascript-026-var.md)
 27. [프로토타입](./posts/javascript/javascript-027-prototype.md)
 28. [내장 객체의 프로토타입](./posts/javascript/javascript-028-내장객체의-프로토타입.md)
+29. [class](./posts/javascript/javascript-029-class.md)
 
 ---
 ### TypeScript
