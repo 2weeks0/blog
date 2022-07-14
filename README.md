@@ -73,6 +73,7 @@
 
 ### Vue.js
 1. [Vue 3와 Composition API](./posts/web/vuejs/vuejs-000-vue3.md)
+1. [ref vs reactive](./posts/web/vuejs/vuejs-001-ref-reactive.md)
 
 ### 프로그래밍
 1. [Collection-분기](./posts/프로그래밍/Collection-분기.md)
