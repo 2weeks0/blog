@@ -42,7 +42,8 @@
 27. [프로토타입](./posts/javascript/javascript-027-prototype.md)
 28. [내장 객체의 프로토타입](./posts/javascript/javascript-028-내장객체의-프로토타입.md)
 29. [class](./posts/javascript/javascript-029-class.md)
-30. [class](./posts/javascript/javascript-030-class-상속.md)
+30. [class 상속](./posts/javascript/javascript-030-class-상속.md)
+31. [class 정적 메소드/프로퍼티](./posts/javascript/javascript-031-static.md)
 
 ---
 ### TypeScript
