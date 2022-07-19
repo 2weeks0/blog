@@ -1,4 +1,4 @@
-[JavaScript] class 상속
+# [JavaScript] class 상속
 
 다른 언어의 클래스 상속과 마찬가지로 JavaScript에서도 클래스 상속을 할 수 있다.
 
