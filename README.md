@@ -1,9 +1,4 @@
-`# blog
-
-공부한 거 정리해놓자!
-
----
-### HTML
+# HTML
 1. [HTML 이란](./posts/html/html-001.md)
 2. [Text Formatting](./posts/html/html-002.md)
 3. [List](./posts/html/html-003.md)
@@ -11,8 +6,7 @@
 5. [Form](./posts/html/html-005.md)
 6. [Form - dropdown](./posts/html/html-006.md)
 
----
-### JavaScript
+# JavaScript
 1. [변수와 상수](./posts/javascript/javascript-001-data.md)
 2. [자료형과 형 변환](./posts/javascript/javascript-002-type.md)
 3. [기본 연산자](./posts/javascript/javascript-003-기본연산자.md)
@@ -46,21 +40,19 @@
 31. [class 정적 메소드/프로퍼티](./posts/javascript/javascript-031-static.md)
 32. [class private 메소드/프로퍼티](./posts/javascript/javascript-032-class-private.md)
 
----
-### TypeScript
+# TypeScript
 1. [Type](./posts/typescript/typescript-001-type.md)
 1. [Interface](./posts/typescript/typescript-002-interface.md)
 1. [함수](./posts/typescript/typescript-003-function.md)
 1. [리터럴 타입](./posts/typescript/typescript-004-literal.md)
 
----
-### Web
+# Web
 1. [mpa_spa](./posts/web/etc/mpa_spa.md)
 1. [JavaScript-비동기함수-병렬처리](./posts/web/etc/JavaScript-비동기함수-병렬처리.md)
 1. [Virtual DOM이란?](./posts/web/etc/virtual-dom.md)
 1. [node.js란?](./posts/web/etc/nodejs.md)
 
-### React.js
+# React.js
 1. [개요](./posts/web/reactjs/reactjs-01-개요.md)
 1. [JSX](./posts/web/reactjs/reactjs-02-JSX.md)
 1. [Component와 props](./posts/web/reactjs/reactjs-03-component-props.md)
@@ -74,21 +66,19 @@
 1. [Hooks - useMemo](./posts/web/reactjs/reactjs-11-usememo.md)
 1. [Hooks - useReducer](./posts/web/reactjs/reactjs-12-usereducer.md)
 
-### Vue.js
+# Vue.js
 1. [Vue 3와 Composition API](./posts/web/vuejs/vuejs-000-vue3.md)
 1. [ref vs reactive](./posts/web/vuejs/vuejs-001-ref-reactive.md)
 
-### 프로그래밍
+# 프로그래밍
 1. [Collection-분기](./posts/프로그래밍/Collection-분기.md)
 
----
-### 컴퓨터구조
+# 컴퓨터구조
 1. [개요](./posts/컴퓨터구조/컴퓨터구조-001-OT.md)
 2. [데이터의 표현](./posts/컴퓨터구조/컴퓨터구조-002-데이터의표현.md)
 3. [논리 게이트](./posts/컴퓨터구조/컴퓨터구조-003-논리게이트.md)
 
----
-### 네트워크
+# 네트워크
 1. [개요](./posts/네트워크/네트워크-001-개요.md)
 1. [네트워크 모델](./posts/네트워크/네트워크-002-네트워크-모델.md)
 1. [2계층 개요](./posts/네트워크/네트워크-003-2계층-개요.md)
@@ -104,8 +94,12 @@
 1. [7계층-HTTP프로토콜](./posts/네트워크/네트워크-013-7계층-HTTP프로토콜.md)
 1. [URI와 URL](./posts/네트워크/네트워크-014-URI-URL.md)
 
----
-### 알고리즘
+# 운영체제
+
+1. [개요](./posts/운영체제/운영체제-01-개요.md)
+1. [운영체제의 구조](./posts/운영체제/운영체제-02-구조.md)
+
+# 알고리즘
 1. [위상정렬](./posts/알고리즘/위상정렬.md)
 1. [정렬](./posts/알고리즘/정렬.md)
 1. [순열](./posts/알고리즘/순열.md)
