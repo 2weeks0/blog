@@ -69,6 +69,7 @@
 # Next.js
 1. [개요](./posts/web/nextjs/nextjs-01-개요.md)
 1. [Navigation](./posts/web/nextjs/nextjs-02-navigation-between-pages.md)
+1. [Dynamic Routes](./posts/web/nextjs/nextjs-03-assets-metadata.md)
 
 # Vue.js
 1. [Vue 3와 Composition API](./posts/web/vuejs/vuejs-000-vue3.md)
