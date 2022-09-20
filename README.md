@@ -72,6 +72,7 @@
 1. [Assets, Metadata](./posts/web/nextjs/nextjs-03-assets-metadata.md)
 1. [css](./posts/web/nextjs/nextjs-04-css.md)
 1. [pre-rendering 개요](./posts/web/nextjs/nextjs-05-pre-rendering-개요.md)
+1. [pre-rendering 활용](./posts/web/nextjs/nextjs-06-pre-rendering-활용.md)
 
 # Vue.js
 1. [Vue 3와 Composition API](./posts/web/vuejs/vuejs-000-vue3.md)

@@ -1,4 +1,4 @@
-# [Next.js] Pre-rendering
+# [Next.js] Pre-rendering 개요
 
 ## Pre-rendering
 
