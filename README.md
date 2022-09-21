@@ -73,6 +73,7 @@
 1. [css](./posts/web/nextjs/nextjs-04-css.md)
 1. [pre-rendering 개요](./posts/web/nextjs/nextjs-05-pre-rendering-개요.md)
 1. [pre-rendering 활용](./posts/web/nextjs/nextjs-06-pre-rendering-활용.md)
+1. [Dynamic Routes](./posts/web/nextjs/nextjs-07-dynamic-routes.md)
 
 # Vue.js
 1. [Vue 3와 Composition API](./posts/web/vuejs/vuejs-000-vue3.md)
