@@ -128,3 +128,4 @@
 1. [mst-크루스칼](./posts/알고리즘/mst-크루스칼.md)
 1. [mst-프림](./posts/알고리즘/mst-프림.md)
 1. [백트래킹](./posts/알고리즘/백트래킹.md)
+1. [KMP](./posts/알고리즘/KMP.md)
