@@ -97,3 +97,77 @@ CPU 관점에서 보는 것이기 때문에, 하나의 프로세스가 완전히
 ![RR](../../assets/img/posts/운영체제/07-05.png)
 
 
+## Multilevel Queue
+
+![Multilevel Queue](../../assets/img/posts/운영체제/07-06.png)
+
+- 프로세스가 다른 큐로 이동 불가능
+- Ready queue를 여러 개로 분할
+    - foreground (interactive)
+    - backgroud (batch - no human interactive)
+- 각 큐는 독립적인 스케줄링 알고리즘을 가짐
+    - foregroud: RR
+    - background: FCFS
+- 큐에 대한 스케줄링이 필요
+    - Fixed priority scheduling
+        -serve all from foreground then from background.
+        - Possibility of starvation.
+    - Time slice
+        - 각 큐에 CPU time을 적절한 비율로 할당 (Eg. 80% to foreground in RR. 20% to background in FCFS)
+
+## Multilevel Feedback Queue
+
+![Multilevel Feedback Queue](../../assets/img/posts/운영체제/07-07.png)
+
+- 프로세스가 다른 큐로 이동 가능
+- Three queues:
+    1. Q1 - time quantum 8 ms.
+    2. Q2 - time quantum 16 ms.
+    3. Q3 - FCFS
+- Scheduling
+    - new job이 Q1로 들어감
+    - CPU를 잡아서 할당 시간 8ms 동안 실행됨
+    - 8ms 동안 다 끝내지 못했으면 Q2로 내려감
+    - Q2에 줄서서 기다렸다가 Q1이 비어있을 때, CPU를 잡아서 16ms 동안 수행됨
+    - 16ms 동안 끝나지 않은 경우, Q3로 쫓겨남
+
+## Multiple-Processor Scheduling
+
+- CPU가 여러 개인 경우 스케줄링은 더욱 복잡해짐
+- Homogeneous processor인 경우
+    - Queue에 한 줄로 세워서 각 프로세서가 알아서 꺼내가게 할 수 있다.
+    - 반드시 특정 프로세서에서 수행되어야 하는 프로세스가 있는 경우에는 복잡해짐
+- Load sharing
+    - 일부 프로세서에 job이 몰리지 않도록 부하를 적절히 공유하는 메커니즘 필요
+    - 별개의 Queue를 두는 방법 vs 공동 Queue를 사용하는 방법
+- Symmetric multi-processing (SMP)
+    - 각 프로세서가 알아서 스케줄링 결정
+- Asymmetric multi-processing
+    - 하나의 프로세서가 시스템 데이터의 접근과 공유를 책임지고 나머지 프로세서는 거기에 따름
+
+## Real-Time Scheduling
+
+- Hard real-time systems
+    - Hard real-time task는 정해진 시간 안에 반드시 끝내도록 스케줄링해야 함
+- Soft real-time computing
+    - Soft real-time task는 일반 프로세스에 비해 높은 priority를 갖도록 해야 함
+
+## Thread Scheduling
+
+- Local Scheduling
+    - User level thread의 경우 사용자 수준의 thread library에 의해 어떤 thread를 스케줄할 지 결정
+- Global Scheduling
+    - Kernel level thread의 경우 일반 프로세스와 마찬가지로 Kernel 단기 스케줄러가 어떤 thread를 스케줄할 지 결정
+
+## Algorithm Evaluation
+
+
+- Queueing models
+    ![Algorithm Evaluation](../../assets/img/posts/운영체제/07-07.png)
+    - 확률 분포로 주어지는 arrival rate와 service rate 등을 통해 각종 performance index 값을 계산
+
+- Implementation & Measurement
+    - 실제 시스템에 알고리즘을 구현하여 실제 작업에 대해서 성능 측정을 비교
+
+- Simulation
+    - 알고리즘을 모의 프로그램으로 작성 후 trace(input)를 입력으로 하여 결과 비교
