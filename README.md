@@ -46,6 +46,7 @@
 1. [함수](./posts/typescript/typescript-003-function.md)
 1. [리터럴 타입](./posts/typescript/typescript-004-literal.md)
 1. [유니언 타입](./posts/typescript/typescript-005-union-type.md)
+1. [교차 타입](./posts/typescript/typescript-006-intersection-type.md)
 
 # Web
 1. [mpa_spa](./posts/web/etc/mpa_spa.md)
