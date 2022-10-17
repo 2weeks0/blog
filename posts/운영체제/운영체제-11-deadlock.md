@@ -93,7 +93,7 @@
 
 ## Deadlock Avoidance
 
-- 자원 요청에 대한 부가정보를 이용해서 자원 할당이 deadlockㅇ로 안전한지를 동적으로 조사해서 안전한 경우메나 할당
+- 자원 요청에 대한 부가정보를 이용해서 자원 할당이 deadlock으로 안전한지를 동적으로 조사해서 안전한 경우에나 할당
 - 가장 단순하고 일반적인 모델은 프로세스들이 필요로 하는 각 자원별 최대 사용량을 미리 선언하도록 하는 방법
 
 - safe state
@@ -134,3 +134,44 @@
     - 모든 프로세스가 종료될 때까지 이러한 과정 반복
 
 ![](../../assets/img/posts/운영체제/11-06.png)
+
+## Deadlock Detection and recovery
+
+- Deadlock Detection
+    - 자원 타입 당 single instance인 경우
+        - 자원 할당 그래프에서 cycle이 곧 deadlock을 의미
+
+    - 자원 타입 당 multiple instance인 경우
+        - Banker's algorithm과 유사한 방법 활용
+
+- Wait-for graph Algorithm
+    - 자원 타입 당 single instance인 경우
+    - Wait-for graph
+        - 자원 할당 그래프의 변형
+        - 프로세스만으로 node 구성
+        - Pj가 가지고 있는 자원을 Pk가 기다리는 경우 Pk->Pj
+    - Algorithm
+        - Wait-for graph에 cycle이 존재하지는 지를 주기적으로 조사 (On^2)
+
+![](../../assets/img/posts/운영체제/11-07.png)
+
+![](../../assets/img/posts/운영체제/11-08.png)
+
+- Recovery
+    - Process termination
+        - Abort all deadlocked processes
+        - Abort one process at a time until the deadlock cycle is eliminated
+    
+    - Resource Preemption
+        - 비용을 최소화할 희생양을 선정
+        - safe state로 rollback하려 process를 restart
+        - Starvation 문제
+            - 동일한 프로세스가 계속해서 희생양으로 선정되는 경우
+            - cost factor에 rollback 횟수도 같이 고려
+
+## Deadlock Ignorance
+
+- Deadlock이 일어나지 않는다고 생각하고 아무런 조치도 취하지 않음
+    - Deadlock이 매우 드물게 발생하므로 deadlock에 대한 조치 자체가 더 큰 overhead일 수 있음
+    - 만약, 시스템에 deadlock이 발생한 경우 시스템이 비정상적으로 작동하는 것을 사람이 느낀 후, 직접 프로세스를 죽이는 방법 등으로 대처
+    - UNIX, Windows 등 대부분의 범용 OS가 이 방식을 채택
